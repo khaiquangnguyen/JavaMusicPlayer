@@ -1,0 +1,15 @@
+/* *****************************************
+* CSCI205 - Software Engineering and Design
+* Fall 2015
+*
+* Name: Khoi Le & Khai Nguyen
+* Date: ${date}
+* Time: ${time}
+*
+* Project: ${project.name}
+* Package: ${package}
+* File: ${name}
+* Description:
+*
+* ****************************************
+*/

@@ -1,47 +1,44 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
 
-# Folder config file
-Desktop.ini
+# Editor backup files
+*~
+*.bak
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# Class Files #
+*.class
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# Package Files #
+*.jar
+*.war
+*.ear
 
-# Windows shortcuts
-*.lnk
+# NetBeans specific #
+nbproject/*
+!nbproject/project.properties
+!nbproject/project.xml
+!nbproject/licenseheader.txt
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
 
-# =========================
-# Operating System Files
-# =========================
+# Eclipse configuration files
+# NOTE: If you want to use the Git plugin for Eclipse, then 
+# do NOT exclude .classpath and .project!
+.settings/
+.metadata/
+.classpath
+.project
 
-# OSX
-# =========================
+# Default Eclipse output directory
+bin/
 
+# OS generated files
 .DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
+.DS_Store?
 ._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
 .Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+.Icon?
+ehthumbs.db
+Thumbs.db
